@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Kidney-Disease-Classification"
 AUTHOR_USER_NAME = "mcmlxiv"
-SRC_REPO = "cnnClassifier"
+SRC_REPO = "cnnClassifier"  # allows folder to be used as package folder
 AUTHOR_EMAIL = "mb2g1208@stust.edu.tw"
 
 
