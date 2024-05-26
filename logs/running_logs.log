@@ -35,3 +35,154 @@
 [2024-05-23 20:03:41,903: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<<
 
 x============x
+[2024-05-25 00:21:06,448:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:21:06,454:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:21:06,457:INFO:common:created directory at: artifacts]
+[2024-05-25 00:21:06,460:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:37:53,913: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-25 00:37:56,404: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-05-25 00:37:56,406: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 00:37:56,407: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 00:37:56,408: INFO: common]: created directory at: artifacts
+[2024-05-25 00:37:56,409: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-25 00:37:56,409: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 00:38:45,823: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 00:38:47,141: INFO: main]: >>>>>> stage Data Ingestion stage completed  <<<<<<<
+
+x============x
+[2024-05-25 00:38:47,142: INFO: main]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-05-25 00:38:47,148: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 00:38:47,150: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 00:38:47,151: INFO: common]: created directory at: artifacts
+[2024-05-25 00:38:47,152: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-25 00:41:11,762: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-25 00:41:12,476: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-05-25 00:41:12,479: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 00:41:12,483: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 00:41:12,483: INFO: common]: created directory at: artifacts
+[2024-05-25 00:41:12,483: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-25 00:41:12,484: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 00:42:01,886: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 00:42:02,713: INFO: main]: >>>>>> stage Data Ingestion stage completed  <<<<<<<
+
+x============x
+[2024-05-25 00:42:02,714: INFO: main]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-05-25 00:42:02,715: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 00:42:02,717: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 00:42:02,718: INFO: common]: created directory at: artifacts
+[2024-05-25 00:42:02,718: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-25 00:44:46,968:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:44:46,972:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:44:46,974:INFO:common:created directory at: artifacts]
+[2024-05-25 00:44:46,976:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:45:23,201:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:45:23,205:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:45:23,209:INFO:common:created directory at: artifacts]
+[2024-05-25 00:45:23,210:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:47:56,492:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:47:56,496:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:47:56,498:INFO:common:created directory at: artifacts]
+[2024-05-25 00:51:39,390:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:51:39,395:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:51:39,398:INFO:common:created directory at: artifacts]
+[2024-05-25 00:53:32,734:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:53:32,739:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:53:32,742:INFO:common:created directory at: artifacts]
+[2024-05-25 00:53:38,833:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:53:38,839:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:53:38,842:INFO:common:created directory at: artifacts]
+[2024-05-25 00:54:20,128:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:54:20,133:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:54:20,136:INFO:common:created directory at: artifacts]
+[2024-05-25 00:54:26,202:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:54:26,206:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:54:26,208:INFO:common:created directory at: artifacts]
+[2024-05-25 00:54:37,752:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:54:37,758:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:54:37,761:INFO:common:created directory at: artifacts]
+[2024-05-25 00:54:56,698:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:54:56,702:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:54:56,705:INFO:common:created directory at: artifacts]
+[2024-05-25 00:54:56,706:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:55:57,462:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:55:57,468:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:55:57,470:INFO:common:created directory at: artifacts]
+[2024-05-25 00:55:57,472:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:56:06,938:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:56:06,943:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:56:06,945:INFO:common:created directory at: artifacts]
+[2024-05-25 00:56:06,947:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:58:02,459:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:58:02,462:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:58:02,464:INFO:common:created directory at: artifacts]
+[2024-05-25 00:58:02,536:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:58:02,540:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:58:02,543:INFO:common:created directory at: artifacts]
+[2024-05-25 00:58:02,545:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 00:59:43,783:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 00:59:43,788:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 00:59:43,791:INFO:common:created directory at: artifacts]
+[2024-05-25 01:00:16,527:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:00:16,530:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 01:00:16,533:INFO:common:created directory at: artifacts]
+[2024-05-25 01:00:21,686:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:00:21,690:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 01:00:21,692:INFO:common:created directory at: artifacts]
+[2024-05-25 01:00:21,695:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:00:53,601:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:00:53,606:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 01:00:53,608:INFO:common:created directory at: artifacts]
+[2024-05-25 01:00:53,611:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:02:47,255:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:02:47,260:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 01:02:47,262:INFO:common:created directory at: artifacts]
+[2024-05-25 01:02:54,344:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:02:54,349:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-25 01:02:54,351:INFO:common:created directory at: artifacts]
+[2024-05-25 01:02:54,353:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:04:33,984:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:04:33,987:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:04:33,990:INFO:common:created directory at: artifacts]
+[2024-05-25 01:04:34,061:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:04:34,065:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:04:34,068:INFO:common:created directory at: artifacts]
+[2024-05-25 01:04:34,120:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:04:34,125:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:04:34,127:INFO:common:created directory at: artifacts]
+[2024-05-25 01:04:34,129:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:05:36,148:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:05:36,152:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:05:36,155:INFO:common:created directory at: artifacts]
+[2024-05-25 01:05:36,280:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:05:36,285:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:05:36,288:INFO:common:created directory at: artifacts]
+[2024-05-25 01:05:36,339:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:05:36,343:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:05:36,346:INFO:common:created directory at: artifacts]
+[2024-05-25 01:05:36,348:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:06:10,589:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-25 01:11:06,876:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-25 01:11:06,881:INFO:common:yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully]
+[2024-05-25 01:11:06,883:INFO:common:created directory at: artifacts]
+[2024-05-25 01:11:06,885:INFO:common:created directory at: artifacts/prepare_base_model]
+[2024-05-25 01:11:07,722:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-25 01:12:23,745: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-25 01:12:24,467: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-05-25 01:12:24,469: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 01:12:24,470: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 01:12:24,470: INFO: common]: created directory at: artifacts
+[2024-05-25 01:12:24,472: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-25 01:12:24,472: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 01:13:17,940: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-25 01:13:18,905: INFO: main]: >>>>>> stage Data Ingestion stage completed  <<<<<<<
+
+x============x
+[2024-05-25 01:13:18,906: INFO: main]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-05-25 01:13:18,907: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-25 01:13:18,909: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-25 01:13:18,909: INFO: common]: created directory at: artifacts
+[2024-05-25 01:13:18,910: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-25 01:13:19,615: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-25 01:13:19,858: INFO: main]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
