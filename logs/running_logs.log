@@ -945,3 +945,124 @@ x==========x
 [2024-05-27 19:02:39,420: INFO: main]: >>>>>> stage Training completed  <<<<<<<
 
 x============x
+[2024-05-27 19:12:07,200: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 19:12:10,530: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 19:12:10,532: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:12:10,533: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:12:10,534: INFO: common]: created directory at: artifacts
+[2024-05-27 19:12:10,535: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 19:12:10,535: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 19:13:09,268: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 19:13:10,014: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 19:13:10,014: INFO: main]: *******************
+[2024-05-27 19:13:10,015: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 19:13:10,016: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:13:10,018: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:13:10,019: INFO: common]: created directory at: artifacts
+[2024-05-27 19:13:10,019: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 19:13:10,611: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 19:13:10,979: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 19:13:10,980: INFO: main]: ************************************************
+[2024-05-27 19:13:10,980: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 19:13:10,982: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:13:10,984: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:13:10,984: INFO: common]: created directory at: artifacts
+[2024-05-27 19:13:10,985: INFO: common]: created directory at: artifacts\training
+[2024-05-27 19:16:52,067: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 19:16:52,067: INFO: main]: *******************
+[2024-05-27 19:16:52,068: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 19:16:52,070: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:16:52,072: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:16:52,073: INFO: common]: created directory at: artifacts
+[2024-05-27 19:17:14,695: INFO: common]: json files saved at: scores.json
+[2024-05-27 19:17:14,696: INFO: common]: json files saved at: scores.json
+[2024-05-27 19:17:16,344: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 19:17:16,346: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 19:17:20,400: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 19:17:22,178: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpvu_74u2w\model\data\model\assets
+[2024-05-27 19:20:30,068: ERROR: main]: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 45, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 70, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+           ^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2024-05-27 19:21:07,082: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 19:21:10,235: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 19:21:10,237: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:21:10,239: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:21:10,239: INFO: common]: created directory at: artifacts
+[2024-05-27 19:21:10,240: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 19:21:10,240: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 19:22:14,595: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 19:22:15,418: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 19:22:15,419: INFO: main]: *******************
+[2024-05-27 19:22:15,419: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 19:22:15,422: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:22:15,425: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:22:15,426: INFO: common]: created directory at: artifacts
+[2024-05-27 19:22:15,426: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 19:22:15,970: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 19:22:16,211: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 19:22:16,212: INFO: main]: ************************************************
+[2024-05-27 19:22:16,212: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 19:22:16,214: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:22:16,216: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:22:16,217: INFO: common]: created directory at: artifacts
+[2024-05-27 19:22:16,218: INFO: common]: created directory at: artifacts\training
+[2024-05-27 19:25:42,295: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 19:25:42,295: INFO: main]: *******************
+[2024-05-27 19:25:42,296: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 19:25:42,298: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 19:25:42,299: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 19:25:42,300: INFO: common]: created directory at: artifacts
+[2024-05-27 19:26:05,006: INFO: common]: json files saved at: scores.json
+[2024-05-27 19:26:05,007: INFO: common]: json files saved at: scores.json
+[2024-05-27 19:26:07,939: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 19:26:07,941: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 19:26:12,105: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 19:26:13,911: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpagh90svd\model\data\model\assets
+[2024-05-27 19:29:22,464: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
