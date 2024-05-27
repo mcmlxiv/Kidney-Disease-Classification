@@ -228,3 +228,690 @@ x==========x
 [2024-05-26 21:30:29,281: INFO: main]: >>>>>> stage Training completed  <<<<<<<
 
 x============x
+[2024-05-26 23:02:04,630: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:02:04,634: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-26 23:02:04,637: INFO: common]: created directory at: artifacts
+[2024-05-26 23:03:25,945: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:03:25,948: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:03:26,028: WARNING: connectionpool]: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /mcmlxiv/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create
+[2024-05-26 23:03:28,616: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:03:28,621: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-26 23:03:28,624: INFO: common]: created directory at: artifacts
+[2024-05-26 23:08:21,574: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:08:21,578: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:08:23,718: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:08:23,723: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-26 23:08:23,726: INFO: common]: created directory at: artifacts
+[2024-05-26 23:09:44,335: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:09:44,339: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:09:46,543: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:09:46,547: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-26 23:09:46,549: INFO: common]: created directory at: artifacts
+[2024-05-26 23:09:57,168: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:09:57,171: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:09:59,197: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:09:59,202: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-26 23:09:59,204: INFO: common]: created directory at: artifacts
+[2024-05-26 23:11:32,721: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:11:32,724: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:11:34,810: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:11:34,814: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:11:34,816: INFO: common]: created directory at: artifacts
+[2024-05-26 23:11:52,251: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:11:52,254: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:11:54,348: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:11:54,352: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:11:54,354: INFO: common]: created directory at: artifacts
+[2024-05-26 23:12:28,019: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:12:28,023: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:12:30,108: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:12:30,111: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:12:30,114: INFO: common]: created directory at: artifacts
+[2024-05-26 23:13:04,837: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:13:04,842: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:13:06,998: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:13:07,002: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:13:07,005: INFO: common]: created directory at: artifacts
+[2024-05-26 23:13:22,658: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:13:22,662: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:13:24,697: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:13:24,701: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:13:24,703: INFO: common]: created directory at: artifacts
+[2024-05-26 23:13:54,290: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:13:54,294: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:13:56,424: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:13:56,429: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:13:56,431: INFO: common]: created directory at: artifacts
+[2024-05-26 23:15:12,448: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-26 23:15:12,451: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-26 23:15:14,449: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-26 23:15:14,452: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-26 23:15:14,455: INFO: common]: created directory at: artifacts
+[2024-05-26 23:15:40,365: INFO: common]: json files saved at: scores.json
+[2024-05-26 23:15:43,008: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-26 23:15:44,224: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp91gl32pd\model\data\model\assets
+[2024-05-27 16:13:42,808: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:13:42,812: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-27 16:13:42,814: INFO: common]: created directory at: artifacts
+[2024-05-27 16:14:07,509: INFO: common]: json files saved at: scores.json
+[2024-05-27 16:14:10,299: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 16:14:11,237: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp6pkjrnm7\model\data\model\assets
+[2024-05-27 16:15:30,647: WARNING: connectionpool]: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2426)')': /mcmlxiv/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/f5b905e747374fde889a4a3dc7b8ed42/9791f8bfe1054a569328b9225fe46963/artifacts/model/data/model/variables/variables.data-00000-of-00001
+[2024-05-27 16:35:53,981: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 16:35:58,613: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 16:35:58,616: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:35:58,618: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:35:58,618: INFO: common]: created directory at: artifacts
+[2024-05-27 16:35:58,619: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 16:35:58,620: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 16:36:00,054: ERROR: main]: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/v8kui4o7n0q0cqdum1crulfg9td9a8b3/1716798900000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=0cf9d249-5609-486d-b1aa-4798559fdf6c (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D6721D7A50>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001D6721D7A50>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/v8kui4o7n0q0cqdum1crulfg9td9a8b3/1716798900000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=0cf9d249-5609-486d-b1aa-4798559fdf6c (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D6721D7A50>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix + file_id, zip_download_dir)
+  File "C:\Users\User\anaconda3\Lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 725, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 725, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 266, in resolve_redirects
+    resp = self.send(
+           ^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/v8kui4o7n0q0cqdum1crulfg9td9a8b3/1716798900000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=0cf9d249-5609-486d-b1aa-4798559fdf6c (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001D6721D7A50>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+[2024-05-27 16:42:16,465:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-27 16:42:16,470:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-27 16:42:16,473:INFO:common:created directory at: artifacts]
+[2024-05-27 16:42:16,475:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-05-27 16:42:16,477:INFO:906975951:Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 16:44:30,114:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-27 16:44:30,119:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-27 16:44:30,122:INFO:common:created directory at: artifacts]
+[2024-05-27 16:44:30,124:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-05-27 16:44:30,126:INFO:906975951:Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 16:45:29,911:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-05-27 16:45:29,914:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-05-27 16:45:29,917:INFO:common:created directory at: artifacts]
+[2024-05-27 16:45:29,920:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-05-27 16:45:29,922:INFO:906975951:Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 16:46:18,754:INFO:906975951:Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-27 16:47:38,220: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 16:47:41,877: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 16:47:41,879: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:47:41,881: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:47:41,881: INFO: common]: created directory at: artifacts
+[2024-05-27 16:47:41,882: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 16:47:41,882: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 16:48:31,367: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 16:48:32,208: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 16:48:32,209: INFO: main]: *******************
+[2024-05-27 16:48:32,214: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 16:48:32,216: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:48:32,219: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:48:32,220: INFO: common]: created directory at: artifacts
+[2024-05-27 16:48:32,221: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 16:48:32,891: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 16:48:33,123: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 16:48:33,123: INFO: main]: ************************************************
+[2024-05-27 16:48:33,124: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 16:48:33,126: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:48:33,127: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:48:33,128: INFO: common]: created directory at: artifacts
+[2024-05-27 16:48:33,129: INFO: common]: created directory at: artifacts\training
+[2024-05-27 16:49:41,731: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 16:49:41,732: INFO: main]: ***********************************************
+[2024-05-27 16:49:41,732: INFO: main]: >>>>>> stage Evaluation started <<<<<<<
+[2024-05-27 16:49:41,736: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:49:41,739: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:49:41,740: INFO: common]: created directory at: artifacts
+[2024-05-27 16:50:05,084: INFO: common]: json files saved at: scores.json
+[2024-05-27 16:50:07,732: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 16:50:09,303: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmprbraz243\model\data\model\assets
+[2024-05-27 16:50:26,331: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\e4a1ff82646545e68bbcbcd98a25a2df\artifacts\model\data
+[2024-05-27 16:50:26,333: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\e4a1ff82646545e68bbcbcd98a25a2df\artifacts\model\data\model
+[2024-05-27 16:50:26,334: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\e4a1ff82646545e68bbcbcd98a25a2df\artifacts\model\data\model\assets
+[2024-05-27 16:50:26,339: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\e4a1ff82646545e68bbcbcd98a25a2df\artifacts\model\data\model\variables
+[2024-05-27 16:50:26,464: INFO: main]: >>>>>> stage Evaluation completed <<<<<<<
+
+x============x
+[2024-05-27 16:52:13,121: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 16:52:16,612: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 16:52:16,615: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:52:16,617: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:52:16,618: INFO: common]: created directory at: artifacts
+[2024-05-27 16:52:16,619: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 16:52:16,619: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 16:53:06,946: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 16:53:07,776: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 16:53:07,777: INFO: main]: *******************
+[2024-05-27 16:53:07,777: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 16:53:07,779: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:53:07,781: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:53:07,782: INFO: common]: created directory at: artifacts
+[2024-05-27 16:53:07,783: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 16:53:08,386: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 16:53:08,648: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 16:53:08,649: INFO: main]: ************************************************
+[2024-05-27 16:53:08,649: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 16:53:08,653: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:53:08,656: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:53:08,657: INFO: common]: created directory at: artifacts
+[2024-05-27 16:53:08,658: INFO: common]: created directory at: artifacts\training
+[2024-05-27 16:55:32,196: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 16:55:32,196: INFO: main]: ***********************************************
+[2024-05-27 16:55:32,196: INFO: main]: >>>>>> stage Evaluation started <<<<<<<
+[2024-05-27 16:55:32,198: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 16:55:32,200: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 16:55:32,201: INFO: common]: created directory at: artifacts
+[2024-05-27 16:55:54,763: INFO: common]: json files saved at: scores.json
+[2024-05-27 16:55:57,640: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 16:55:59,339: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmppdjygqso\model\data\model\assets
+[2024-05-27 16:56:14,599: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\ed2fc405ccae4d50bde43f4abcf405e7\artifacts\model\data
+[2024-05-27 16:56:14,601: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\ed2fc405ccae4d50bde43f4abcf405e7\artifacts\model\data\model
+[2024-05-27 16:56:14,602: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\ed2fc405ccae4d50bde43f4abcf405e7\artifacts\model\data\model\assets
+[2024-05-27 16:56:14,607: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\ed2fc405ccae4d50bde43f4abcf405e7\artifacts\model\data\model\variables
+[2024-05-27 16:56:14,721: INFO: main]: >>>>>> stage Evaluation completed <<<<<<<
+
+x============x
+[2024-05-27 17:02:21,845: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:02:25,919: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:02:25,922: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:02:25,923: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:02:25,924: INFO: common]: created directory at: artifacts
+[2024-05-27 17:02:25,925: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:02:25,925: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:02:27,248: ERROR: main]: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cbbgni03og7pqnajlfqqt0du6hba3uuh/1716800475000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=1ea4cdb7-e847-4cb3-b4f0-a95292e46c44 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C98C0D7710>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 791, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 492, in _make_request
+    raise new_e
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 468, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 1097, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001C98C0D7710>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\connectionpool.py", line 845, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cbbgni03og7pqnajlfqqt0du6hba3uuh/1716800475000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=1ea4cdb7-e847-4cb3-b4f0-a95292e46c44 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C98C0D7710>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix + file_id, zip_download_dir)
+  File "C:\Users\User\anaconda3\Lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 725, in send
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 725, in <listcomp>
+    history = [resp for resp in gen]
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 266, in resolve_redirects
+    resp = self.send(
+           ^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cbbgni03og7pqnajlfqqt0du6hba3uuh/1716800475000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=1ea4cdb7-e847-4cb3-b4f0-a95292e46c44 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001C98C0D7710>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+[2024-05-27 17:03:02,849: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:03:05,479: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:03:05,482: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:03:05,483: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:03:05,484: INFO: common]: created directory at: artifacts
+[2024-05-27 17:03:05,485: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:03:05,485: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:03:56,206: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:03:57,141: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 17:03:57,142: INFO: main]: *******************
+[2024-05-27 17:03:57,142: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 17:03:57,144: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:03:57,145: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:03:57,146: INFO: common]: created directory at: artifacts
+[2024-05-27 17:03:57,147: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 17:03:58,179: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 17:03:58,457: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 17:03:58,457: INFO: main]: ************************************************
+[2024-05-27 17:03:58,458: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 17:03:58,460: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:03:58,461: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:03:58,462: INFO: common]: created directory at: artifacts
+[2024-05-27 17:03:58,462: INFO: common]: created directory at: artifacts\training
+[2024-05-27 17:06:18,570: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 17:06:18,570: INFO: main]: ***********************************************
+[2024-05-27 17:06:18,571: INFO: main]: >>>>>> stage Evaluation started <<<<<<<
+[2024-05-27 17:06:18,573: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:06:18,577: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:06:18,577: INFO: common]: created directory at: artifacts
+[2024-05-27 17:06:41,158: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:06:44,075: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 17:06:46,054: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpt2z1r_qa\model\data\model\assets
+[2024-05-27 17:07:03,641: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\f9fc3b6ed1d54fee832f58efcde6d82a\artifacts\model\data
+[2024-05-27 17:07:03,643: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\f9fc3b6ed1d54fee832f58efcde6d82a\artifacts\model\data\model
+[2024-05-27 17:07:03,645: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\f9fc3b6ed1d54fee832f58efcde6d82a\artifacts\model\data\model\assets
+[2024-05-27 17:07:03,651: INFO: dir_util]: creating D:\ML projects\ML class\Kidney-Disease-Classification\mlruns\0\f9fc3b6ed1d54fee832f58efcde6d82a\artifacts\model\data\model\variables
+[2024-05-27 17:07:03,780: INFO: main]: >>>>>> stage Evaluation completed <<<<<<<
+
+x============x
+[2024-05-27 17:09:53,310: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:09:53,316: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-27 17:09:53,318: INFO: common]: created directory at: artifacts
+[2024-05-27 17:10:19,451: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:10:22,405: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 17:10:23,505: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpsrf6r8q9\model\data\model\assets
+[2024-05-27 17:20:21,390: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:20:23,804: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:20:23,807: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:20:23,808: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:20:23,809: INFO: common]: created directory at: artifacts
+[2024-05-27 17:20:23,810: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:20:23,810: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:21:14,106: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:21:14,963: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 17:21:14,964: INFO: main]: *******************
+[2024-05-27 17:21:14,965: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 17:21:14,970: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:21:14,975: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:21:14,977: INFO: common]: created directory at: artifacts
+[2024-05-27 17:21:14,979: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 17:21:15,560: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 17:21:15,847: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 17:21:15,848: INFO: main]: ************************************************
+[2024-05-27 17:21:15,848: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 17:21:15,850: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:21:15,851: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:21:15,852: INFO: common]: created directory at: artifacts
+[2024-05-27 17:21:15,853: INFO: common]: created directory at: artifacts\training
+[2024-05-27 17:23:32,272: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 17:23:32,272: INFO: main]: *******************
+[2024-05-27 17:23:32,272: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 17:23:32,275: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:23:32,276: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:23:32,277: INFO: common]: created directory at: artifacts
+[2024-05-27 17:23:32,696: ERROR: main]: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion/kidney-ct-scan-image'
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 46, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.evaluation()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 44, in evaluation
+    self._valid_generator()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 31, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+                         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion/kidney-ct-scan-image'
+[2024-05-27 17:26:16,478: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:26:19,433: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:26:19,439: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:26:19,440: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:26:19,441: INFO: common]: created directory at: artifacts
+[2024-05-27 17:26:19,442: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:26:19,443: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:27:09,371: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:27:10,228: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 17:27:10,228: INFO: main]: *******************
+[2024-05-27 17:27:10,229: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 17:27:10,231: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:27:10,232: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:27:10,233: INFO: common]: created directory at: artifacts
+[2024-05-27 17:27:10,234: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 17:27:10,776: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 17:27:11,038: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 17:27:11,038: INFO: main]: ************************************************
+[2024-05-27 17:27:11,039: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 17:27:11,041: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:27:11,042: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:27:11,043: INFO: common]: created directory at: artifacts
+[2024-05-27 17:27:11,044: INFO: common]: created directory at: artifacts\training
+[2024-05-27 17:29:32,556: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 17:29:32,556: INFO: main]: *******************
+[2024-05-27 17:29:32,556: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 17:29:32,559: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:29:32,560: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:29:32,561: INFO: common]: created directory at: artifacts
+[2024-05-27 17:29:56,019: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:29:56,020: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:29:56,021: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-05-27 17:40:30,774: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:40:36,077: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:40:36,080: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:40:36,083: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:40:36,084: INFO: common]: created directory at: artifacts
+[2024-05-27 17:40:36,084: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:40:36,085: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:41:27,838: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:41:29,634: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 17:41:29,635: INFO: main]: *******************
+[2024-05-27 17:41:29,636: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 17:41:29,642: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:41:29,647: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:41:29,649: INFO: common]: created directory at: artifacts
+[2024-05-27 17:41:29,651: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 17:41:30,187: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 17:41:30,441: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 17:41:30,442: INFO: main]: ************************************************
+[2024-05-27 17:41:30,442: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 17:41:30,445: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:41:30,448: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:41:30,449: INFO: common]: created directory at: artifacts
+[2024-05-27 17:41:30,449: INFO: common]: created directory at: artifacts\training
+[2024-05-27 17:43:46,979: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 17:43:46,979: INFO: main]: *******************
+[2024-05-27 17:43:46,979: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 17:43:46,982: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:43:46,983: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:43:46,984: INFO: common]: created directory at: artifacts
+[2024-05-27 17:44:08,092: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 17:44:08,093: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 17:44:34,100: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:44:34,101: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:44:34,101: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-05-27 17:46:26,333: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 17:46:31,449: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 17:46:31,451: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:46:31,453: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:46:31,454: INFO: common]: created directory at: artifacts
+[2024-05-27 17:46:31,454: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 17:46:31,455: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:47:23,091: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 17:47:24,335: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 17:47:24,336: INFO: main]: *******************
+[2024-05-27 17:47:24,336: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 17:47:24,338: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:47:24,340: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:47:24,341: INFO: common]: created directory at: artifacts
+[2024-05-27 17:47:24,342: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 17:47:24,895: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 17:47:25,148: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 17:47:25,149: INFO: main]: ************************************************
+[2024-05-27 17:47:25,149: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 17:47:25,151: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:47:25,153: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:47:25,154: INFO: common]: created directory at: artifacts
+[2024-05-27 17:47:25,155: INFO: common]: created directory at: artifacts\training
+[2024-05-27 17:48:41,064: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 17:48:41,065: INFO: main]: *******************
+[2024-05-27 17:48:41,065: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 17:48:41,070: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:48:41,071: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 17:48:41,072: INFO: common]: created directory at: artifacts
+[2024-05-27 17:48:42,855: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 17:48:42,856: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 17:49:09,125: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:49:09,127: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:49:09,127: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-05-27 17:49:56,380: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 17:49:56,384: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 17:49:56,450: WARNING: connectionpool]: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /mcmlxiv/Kidney-Disease-Classification.mlflow/api/2.0/mlflow/runs/create
+[2024-05-27 17:50:02,129: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:50:02,135: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-27 17:50:02,137: INFO: common]: created directory at: artifacts
+[2024-05-27 17:50:26,726: INFO: common]: json files saved at: scores.json
+[2024-05-27 17:50:29,566: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 17:50:30,502: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp10u8dmfy\model\data\model\assets
+[2024-05-27 17:59:07,966: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 17:59:07,969: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 17:59:12,741: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 17:59:12,746: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-27 17:59:12,749: INFO: common]: created directory at: artifacts
+[2024-05-27 18:02:32,051: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 18:02:32,062: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 18:02:39,215: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:02:39,220: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-27 18:02:39,222: INFO: common]: created directory at: artifacts
+[2024-05-27 18:03:02,965: INFO: common]: json files saved at: scores.json
+[2024-05-27 18:19:13,001: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 18:19:16,366: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 18:19:16,369: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:19:16,371: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:19:16,371: INFO: common]: created directory at: artifacts
+[2024-05-27 18:19:16,372: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 18:19:16,372: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:20:08,489: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:20:09,611: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 18:20:09,612: INFO: main]: *******************
+[2024-05-27 18:20:09,613: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 18:20:09,618: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:20:09,623: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:20:09,624: INFO: common]: created directory at: artifacts
+[2024-05-27 18:20:09,626: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 18:20:10,170: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 18:20:10,458: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 18:20:10,458: INFO: main]: ************************************************
+[2024-05-27 18:20:10,459: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 18:20:10,461: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:20:10,463: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:20:10,463: INFO: common]: created directory at: artifacts
+[2024-05-27 18:20:10,464: INFO: common]: created directory at: artifacts\training
+[2024-05-27 18:21:18,516: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 18:21:18,517: INFO: main]: *******************
+[2024-05-27 18:21:18,517: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 18:21:18,519: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:21:18,521: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:21:18,521: INFO: common]: created directory at: artifacts
+[2024-05-27 18:21:41,113: INFO: common]: json files saved at: scores.json
+[2024-05-27 18:21:41,115: INFO: common]: json files saved at: scores.json
+[2024-05-27 18:21:42,752: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 18:21:42,754: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 18:21:46,712: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 18:21:48,637: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmph4rmuq27\model\data\model\assets
+[2024-05-27 18:24:57,644: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-05-27 18:35:39,907: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 18:35:44,399: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 18:35:44,405: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:35:44,408: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:35:44,409: INFO: common]: created directory at: artifacts
+[2024-05-27 18:35:44,410: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 18:35:44,411: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:36:38,706: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:36:39,645: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 18:36:39,646: INFO: main]: *******************
+[2024-05-27 18:36:39,646: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 18:36:39,649: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:36:39,652: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:36:39,653: INFO: common]: created directory at: artifacts
+[2024-05-27 18:36:39,654: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 18:36:40,347: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 18:36:40,710: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 18:36:40,711: INFO: main]: ************************************************
+[2024-05-27 18:36:40,711: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 18:36:40,714: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:36:40,718: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:36:40,719: INFO: common]: created directory at: artifacts
+[2024-05-27 18:36:40,719: INFO: common]: created directory at: artifacts\training
+[2024-05-27 18:39:33,560: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 18:39:33,561: INFO: main]: *******************
+[2024-05-27 18:39:33,562: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 18:39:33,567: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:39:33,571: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:39:33,573: INFO: common]: created directory at: artifacts
+[2024-05-27 18:40:03,359: INFO: common]: json files saved at: scores.json
+[2024-05-27 18:40:03,360: INFO: common]: json files saved at: scores.json
+[2024-05-27 18:40:05,329: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-27 18:40:05,331: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-27 18:40:11,077: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-27 18:40:13,432: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpfw3jznuj\model\data\model\assets
+[2024-05-27 18:43:29,410: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
