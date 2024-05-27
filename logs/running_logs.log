@@ -915,3 +915,33 @@ x============x
 [2024-05-27 18:43:29,410: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
 
 x==========x
+[2024-05-27 18:57:59,448: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 18:58:00,414: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 18:58:00,418: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:58:00,420: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:58:00,421: INFO: common]: created directory at: artifacts
+[2024-05-27 18:58:00,422: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 18:58:00,422: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:58:52,550: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 18:58:53,441: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 18:58:53,442: INFO: main]: *******************
+[2024-05-27 18:58:53,442: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 18:58:53,444: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:58:53,445: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:58:53,446: INFO: common]: created directory at: artifacts
+[2024-05-27 18:58:53,447: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 18:58:53,990: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 18:58:54,289: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 18:58:54,289: INFO: main]: ************************************************
+[2024-05-27 18:58:54,289: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 18:58:54,294: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 18:58:54,297: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 18:58:54,298: INFO: common]: created directory at: artifacts
+[2024-05-27 18:58:54,299: INFO: common]: created directory at: artifacts\training
+[2024-05-27 19:02:39,420: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
