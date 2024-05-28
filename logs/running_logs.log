@@ -1066,3 +1066,288 @@ x============x
 [2024-05-27 19:29:22,464: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
 
 x==========x
+[2024-05-27 20:50:28,632: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 20:50:28,636: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 20:50:28,645: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 20:50:28,645: INFO: common]: created directory at: artifacts
+[2024-05-27 20:50:28,646: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 20:50:28,647: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 20:50:29,329: ERROR: main]: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ksect9kk5jgbamaumv1g5qibuje5ml49/1716814200000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=c171847a-6a8f-4cd9-9518-45cd32165098 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F5419DCCA0>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\User\anaconda3\envs\myenv\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001F5419DCCA0>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ksect9kk5jgbamaumv1g5qibuje5ml49/1716814200000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=c171847a-6a8f-4cd9-9518-45cd32165098 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F5419DCCA0>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 11, in <module>
+    data_ingestion.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix + file_id, zip_download_dir)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 724, in send
+    history = [resp for resp in gen]
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 724, in <listcomp>
+    history = [resp for resp in gen]
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 265, in resolve_redirects
+    resp = self.send(
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\anaconda3\envs\myenv\lib\site-packages\requests\adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='doc-0s-bg-docs.googleusercontent.com', port=443): Max retries exceeded with url: /docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/ksect9kk5jgbamaumv1g5qibuje5ml49/1716814200000/13776470301398363934/*/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY?uuid=c171847a-6a8f-4cd9-9518-45cd32165098 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F5419DCCA0>: Failed to resolve 'doc-0s-bg-docs.googleusercontent.com' ([Errno 11001] getaddrinfo failed)"))
+[2024-05-27 20:51:04,504: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 20:51:04,507: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 20:51:04,508: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 20:51:04,509: INFO: common]: created directory at: artifacts
+[2024-05-27 20:51:04,510: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 20:51:04,510: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 20:51:52,731: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 20:51:53,869: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-27 20:51:53,869: INFO: main]: *******************
+[2024-05-27 20:51:53,870: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-27 20:51:53,872: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 20:51:53,874: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 20:51:53,874: INFO: common]: created directory at: artifacts
+[2024-05-27 20:51:53,875: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-27 20:51:54,542: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-27 20:51:54,809: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-27 20:51:54,809: INFO: main]: ************************************************
+[2024-05-27 20:51:54,809: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-27 20:51:54,812: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 20:51:54,814: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 20:51:54,815: INFO: common]: created directory at: artifacts
+[2024-05-27 20:51:54,815: INFO: common]: created directory at: artifacts\training
+[2024-05-27 20:55:20,728: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-27 20:55:20,728: INFO: main]: *******************
+[2024-05-27 20:55:20,728: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-27 20:55:20,731: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 20:55:20,733: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 20:55:20,734: INFO: common]: created directory at: artifacts
+[2024-05-27 20:55:42,737: INFO: common]: json files saved at: scores.json
+[2024-05-27 20:55:42,738: INFO: common]: json files saved at: scores.json
+[2024-05-27 20:55:42,738: ERROR: main]: module 'dagshub' has no attribute 'init'
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 45, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 54, in log_into_mlflow
+    dagshub.init(repo_owner='mcmlxiv', repo_name='Kidney-Disease-Classification', mlflow=True)
+AttributeError: module 'dagshub' has no attribute 'init'
+[2024-05-27 21:21:26,718: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-05-27 21:21:30,469: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 21:21:30,474: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 21:21:30,478: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 21:21:30,478: INFO: common]: created directory at: artifacts
+[2024-05-27 21:21:30,479: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 21:21:30,480: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 22:02:01,643: INFO: data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 22:02:01,649: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 22:02:01,654: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 22:02:01,654: INFO: common]: created directory at: artifacts
+[2024-05-27 22:02:01,655: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 22:02:01,656: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-27 22:05:11,050: INFO: data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-27 22:05:11,052: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-27 22:05:11,054: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-27 22:05:11,055: INFO: common]: created directory at: artifacts
+[2024-05-27 22:05:11,056: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-27 22:05:11,057: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 14:01:41,924: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-28 14:01:41,926: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:01:41,928: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:01:41,929: INFO: common]: created directory at: artifacts
+[2024-05-28 14:01:41,929: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-28 14:01:41,930: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 14:03:26,668: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 14:03:27,630: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-28 14:03:27,630: INFO: main]: *******************
+[2024-05-28 14:03:27,630: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-28 14:03:27,633: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:03:27,635: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:03:27,635: INFO: common]: created directory at: artifacts
+[2024-05-28 14:03:27,636: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-28 14:03:28,459: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-28 14:03:28,698: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-28 14:03:28,699: INFO: main]: ************************************************
+[2024-05-28 14:03:28,699: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-28 14:03:28,702: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:03:28,703: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:03:28,704: INFO: common]: created directory at: artifacts
+[2024-05-28 14:03:28,705: INFO: common]: created directory at: artifacts\training
+[2024-05-28 14:06:57,112: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-28 14:06:57,112: INFO: main]: *******************
+[2024-05-28 14:06:57,112: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-28 14:06:57,116: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:06:57,118: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:06:57,119: INFO: common]: created directory at: artifacts
+[2024-05-28 14:07:19,269: INFO: common]: json files saved at: scores.json
+[2024-05-28 14:07:19,270: INFO: common]: json files saved at: scores.json
+[2024-05-28 14:07:19,270: ERROR: main]: module 'dagshub' has no attribute 'init'
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 45, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 54, in log_into_mlflow
+    dagshub.init(repo_owner='mcmlxiv', repo_name='Kidney-Disease-Classification', mlflow=True)
+AttributeError: module 'dagshub' has no attribute 'init'
+[2024-05-28 14:12:27,207: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-05-28 14:12:27,209: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:12:27,212: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:12:27,212: INFO: common]: created directory at: artifacts
+[2024-05-28 14:12:27,213: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-28 14:12:27,213: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 14:13:16,107: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 14:13:17,012: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-05-28 14:13:17,012: INFO: main]: *******************
+[2024-05-28 14:13:17,013: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-05-28 14:13:17,015: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:13:17,017: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:13:17,018: INFO: common]: created directory at: artifacts
+[2024-05-28 14:13:17,018: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-28 14:13:17,593: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-28 14:13:18,268: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-05-28 14:13:18,268: INFO: main]: ************************************************
+[2024-05-28 14:13:18,269: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-05-28 14:13:18,271: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:13:18,273: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:13:18,274: INFO: common]: created directory at: artifacts
+[2024-05-28 14:13:18,274: INFO: common]: created directory at: artifacts\training
+[2024-05-28 14:17:14,717: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-05-28 14:17:14,717: INFO: main]: *******************
+[2024-05-28 14:17:14,718: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-28 14:17:14,724: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 14:17:14,729: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 14:17:14,730: INFO: common]: created directory at: artifacts
+[2024-05-28 14:17:45,180: INFO: common]: json files saved at: scores.json
+[2024-05-28 14:17:45,181: INFO: common]: json files saved at: scores.json
+[2024-05-28 14:17:45,181: ERROR: main]: module 'dagshub' has no attribute 'init'
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 45, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 54, in log_into_mlflow
+    dagshub.init(repo_owner='mcmlxiv', repo_name='Kidney-Disease-Classification', mlflow=True)
+AttributeError: module 'dagshub' has no attribute 'init'
+[2024-05-28 18:59:18,049: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 18:59:18,053: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-05-28 18:59:18,056: INFO: common]: created directory at: artifacts
+[2024-05-28 18:59:44,808: INFO: common]: json files saved at: scores.json
+[2024-05-28 18:59:45,203: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-28 18:59:45,208: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-28 18:59:47,821: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-28 18:59:48,781: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpchwjq5ah\model\data\model\assets
+[2024-05-28 19:44:13,176: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-05-28 19:44:13,178: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 19:44:13,183: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 19:44:13,184: INFO: common]: created directory at: artifacts
+[2024-05-28 19:44:13,184: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-28 19:44:13,185: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 19:45:03,543: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 19:45:04,843: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x============x
+[2024-05-28 19:46:26,151: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-05-28 19:46:26,154: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 19:46:26,156: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 19:46:26,156: INFO: common]: created directory at: artifacts
+[2024-05-28 19:46:26,157: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-05-28 19:46:26,157: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 19:47:15,373: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-05-28 19:47:16,613: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x============x
+[2024-05-28 19:47:36,913: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-05-28 19:47:36,917: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 19:47:36,920: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 19:47:36,922: INFO: common]: created directory at: artifacts
+[2024-05-28 19:47:36,943: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-05-28 19:47:37,884: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-05-28 19:47:38,152: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-05-28 19:47:46,799: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-05-28 19:47:46,801: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 19:47:46,803: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 19:47:46,804: INFO: common]: created directory at: artifacts
+[2024-05-28 19:47:46,804: INFO: common]: created directory at: artifacts\training
+[2024-05-28 19:51:20,324: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-05-28 19:55:38,931: INFO: stage_04_model_evaluation]: *******************
+[2024-05-28 19:55:38,932: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-05-28 19:55:38,934: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-05-28 19:55:38,938: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-05-28 19:55:38,938: INFO: common]: created directory at: artifacts
+[2024-05-28 19:56:07,525: INFO: common]: json files saved at: scores.json
+[2024-05-28 19:56:07,527: INFO: common]: json files saved at: scores.json
+[2024-05-28 19:56:09,541: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-05-28 19:56:09,544: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-05-28 19:56:13,831: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-05-28 19:56:15,135: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpcungp95j\model\data\model\assets
+[2024-05-28 19:59:23,104: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
