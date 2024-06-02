@@ -1571,3 +1571,11 @@ x==========x
 [2024-06-02 20:59:23,785: INFO: _internal]: [33mPress CTRL+C to quit[0m
 [2024-06-02 20:59:29,422: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 20:59:29] "GET / HTTP/1.1" 200 -
 [2024-06-02 21:00:56,406: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:00:56] "GET / HTTP/1.1" 200 -
+[2024-06-02 21:01:22,803: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-02 21:01:22,803: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-02 21:01:46,497: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:01:46] "GET / HTTP/1.1" 200 -
+[2024-06-02 21:02:26,544: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:02:26] "POST /predict HTTP/1.1" 200 -
+[2024-06-02 21:02:43,184: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:02:43] "POST /predict HTTP/1.1" 200 -
