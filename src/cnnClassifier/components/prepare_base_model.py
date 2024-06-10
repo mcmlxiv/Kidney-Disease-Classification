@@ -12,7 +12,7 @@ class PrepareBaseModel:
         self.config = config
 
     def get_base_model(self):
-        self.model = tf.keras.applications.vgg16.VGG16(
+        self.model = tf.keras.applications.vgg16.VGG16(  # vgg16.VGG16 model switch Vgg19 RESnet50
             input_shape=self.config.params_image_size,
             weights=self.config.params_weights,
             include_top=self.config.params_include_top
@@ -41,7 +41,7 @@ class PrepareBaseModel:
         )
 
         full_model.compile(
-            optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
+            optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),  # SGD
             loss=tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"]
         )

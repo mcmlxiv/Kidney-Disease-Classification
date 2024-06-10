@@ -1579,3 +1579,885 @@ x==========x
 [2024-06-02 21:01:46,497: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:01:46] "GET / HTTP/1.1" 200 -
 [2024-06-02 21:02:26,544: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:02:26] "POST /predict HTTP/1.1" 200 -
 [2024-06-02 21:02:43,184: INFO: _internal]: 127.0.0.1 - - [02/Jun/2024 21:02:43] "POST /predict HTTP/1.1" 200 -
+[2024-06-02 23:13:42,822: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-02 23:13:42,834: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:13:42,839: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:13:42,839: INFO: common]: created directory at: artifacts
+[2024-06-02 23:13:42,840: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-02 23:22:49,437: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-06-02 23:22:49,440: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:22:49,445: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:22:49,446: INFO: common]: created directory at: artifacts
+[2024-06-02 23:22:49,446: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-02 23:22:49,447: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-02 23:23:38,480: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-02 23:23:39,849: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-06-02 23:23:39,849: INFO: main]: *******************
+[2024-06-02 23:23:39,850: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-06-02 23:23:39,853: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:23:39,855: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:23:39,856: INFO: common]: created directory at: artifacts
+[2024-06-02 23:23:39,856: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-02 23:23:40,758: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-02 23:23:41,115: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-06-02 23:23:41,115: INFO: main]: ************************************************
+[2024-06-02 23:23:41,116: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-06-02 23:23:41,119: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:23:41,121: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:23:41,122: INFO: common]: created directory at: artifacts
+[2024-06-02 23:23:41,123: INFO: common]: created directory at: artifacts\training
+[2024-06-02 23:36:49,270: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-06-02 23:36:49,271: INFO: main]: *******************
+[2024-06-02 23:36:49,272: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-02 23:36:49,276: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:36:49,279: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:36:49,280: INFO: common]: created directory at: artifacts
+[2024-06-02 23:37:19,455: INFO: common]: json files saved at: scores.json
+[2024-06-02 23:37:19,457: INFO: common]: json files saved at: scores.json
+[2024-06-02 23:37:19,457: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-02 23:48:06,767: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-02 23:48:06,773: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:48:06,777: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:48:06,778: INFO: common]: created directory at: artifacts
+[2024-06-02 23:48:06,779: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-02 23:48:07,551: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-02 23:48:08,344: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-02 23:48:19,011: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-02 23:48:19,017: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-02 23:48:19,021: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-02 23:48:19,022: INFO: common]: created directory at: artifacts
+[2024-06-02 23:48:19,022: INFO: common]: created directory at: artifacts\training
+[2024-06-03 00:36:06,793: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-03 00:36:06,796: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 00:36:06,798: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 00:36:06,798: INFO: common]: created directory at: artifacts
+[2024-06-03 00:36:06,799: INFO: common]: created directory at: artifacts\training
+[2024-06-03 00:48:05,553: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-03 00:48:16,994: INFO: stage_04_model_evaluation]: *******************
+[2024-06-03 00:48:16,995: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-03 00:48:16,999: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 00:48:17,001: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 00:48:17,002: INFO: common]: created directory at: artifacts
+[2024-06-03 00:48:39,050: INFO: common]: json files saved at: scores.json
+[2024-06-03 00:48:39,051: INFO: common]: json files saved at: scores.json
+[2024-06-03 00:48:39,986: INFO: _client]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-06-03 00:48:40,919: INFO: _client]: HTTP Request: GET https://dagshub.com/api/v1/repos/mcmlxiv/Kidney-Disease-Classification "HTTP/1.1 200 OK"
+[2024-06-03 00:48:40,928: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-03 00:48:40,930: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-03 00:48:46,185: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-03 00:48:47,112: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpdhcws2rj\model\data\model\assets
+[2024-06-03 00:52:39,640: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-03 01:21:32,897: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-03 01:21:32,900: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 01:21:32,902: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 01:21:32,903: INFO: common]: created directory at: artifacts
+[2024-06-03 01:21:32,903: INFO: common]: created directory at: artifacts\training
+[2024-06-03 01:46:12,616: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-03 01:46:23,360: INFO: stage_04_model_evaluation]: *******************
+[2024-06-03 01:46:23,361: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-03 01:46:23,364: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 01:46:23,367: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 01:46:23,367: INFO: common]: created directory at: artifacts
+[2024-06-03 01:46:45,199: INFO: common]: json files saved at: scores.json
+[2024-06-03 01:46:45,200: INFO: common]: json files saved at: scores.json
+[2024-06-03 01:46:46,051: INFO: _client]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-06-03 01:46:46,977: INFO: _client]: HTTP Request: GET https://dagshub.com/api/v1/repos/mcmlxiv/Kidney-Disease-Classification "HTTP/1.1 200 OK"
+[2024-06-03 01:46:46,987: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-03 01:46:46,989: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-03 01:46:49,995: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-03 01:46:50,817: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpzv7cozma\model\data\model\assets
+[2024-06-03 01:50:20,419: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-03 02:03:09,493: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 02:03:14,447: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-03 02:03:14,449: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 02:03:14,451: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 02:03:14,451: INFO: common]: created directory at: artifacts
+[2024-06-03 02:03:14,452: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-03 02:03:15,457: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-03 02:03:16,704: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-03 02:03:30,448: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 02:03:31,437: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-03 02:03:31,439: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 02:03:31,441: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 02:03:31,442: INFO: common]: created directory at: artifacts
+[2024-06-03 02:03:31,443: INFO: common]: created directory at: artifacts\training
+[2024-06-03 02:51:56,683: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-03 02:52:05,553: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 02:52:10,321: INFO: stage_04_model_evaluation]: *******************
+[2024-06-03 02:52:10,322: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-03 02:52:10,324: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 02:52:10,326: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 02:52:10,327: INFO: common]: created directory at: artifacts
+[2024-06-03 02:52:32,323: INFO: common]: json files saved at: scores.json
+[2024-06-03 02:52:32,324: INFO: common]: json files saved at: scores.json
+[2024-06-03 02:52:34,124: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-03 02:52:34,127: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-03 02:52:39,101: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-03 02:52:40,772: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp9saqxkr9\model\data\model\assets
+[2024-06-03 02:55:52,786: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-03 03:38:24,379: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 03:38:25,222: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-03 03:38:25,224: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 03:38:25,226: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 03:38:25,227: INFO: common]: created directory at: artifacts
+[2024-06-03 03:38:25,227: INFO: common]: created directory at: artifacts\training
+[2024-06-03 04:40:42,364: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-03 04:40:51,172: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 04:40:55,532: INFO: stage_04_model_evaluation]: *******************
+[2024-06-03 04:40:55,533: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-03 04:40:55,538: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 04:40:55,540: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 04:40:55,541: INFO: common]: created directory at: artifacts
+[2024-06-03 04:41:19,040: INFO: common]: json files saved at: scores.json
+[2024-06-03 04:41:19,041: INFO: common]: json files saved at: scores.json
+[2024-06-03 04:41:20,853: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-03 04:41:20,856: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-03 04:41:25,398: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-03 04:41:26,978: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmptw8yg7zm\model\data\model\assets
+[2024-06-03 04:46:23,262: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-03 10:07:33,704: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 10:07:34,987: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-03 10:07:34,991: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 10:07:34,993: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 10:07:34,994: INFO: common]: created directory at: artifacts
+[2024-06-03 10:07:34,994: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-03 10:07:35,818: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-03 10:07:36,154: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-03 10:07:45,134: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 10:07:46,061: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-03 10:07:46,064: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 10:07:46,066: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 10:07:46,067: INFO: common]: created directory at: artifacts
+[2024-06-03 10:07:46,068: INFO: common]: created directory at: artifacts\training
+[2024-06-03 10:12:37,045: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-03 10:12:45,102: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-03 10:12:48,653: INFO: stage_04_model_evaluation]: *******************
+[2024-06-03 10:12:48,654: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-03 10:12:48,656: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-03 10:12:48,658: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-03 10:12:48,659: INFO: common]: created directory at: artifacts
+[2024-06-03 10:13:10,567: INFO: common]: json files saved at: scores.json
+[2024-06-03 10:13:10,568: INFO: common]: json files saved at: scores.json
+[2024-06-03 10:13:12,478: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-03 10:13:12,481: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-03 10:13:16,834: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-03 10:13:18,957: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmprrrbvv6j\model\data\model\assets
+[2024-06-03 10:16:27,330: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-05 21:22:56,297: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-05 21:23:03,067: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-06-05 21:23:03,070: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:23:03,072: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:23:03,072: INFO: common]: created directory at: artifacts
+[2024-06-05 21:23:03,073: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-05 21:23:03,073: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-05 21:25:20,240: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-05 21:25:21,564: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-06-05 21:25:21,564: INFO: main]: *******************
+[2024-06-05 21:25:21,565: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-06-05 21:25:21,569: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:25:21,571: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:25:21,572: INFO: common]: created directory at: artifacts
+[2024-06-05 21:25:21,573: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-05 21:27:22,429: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-05 21:27:22,816: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-06-05 21:27:22,816: INFO: main]: ************************************************
+[2024-06-05 21:27:22,817: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-06-05 21:27:22,820: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:27:22,823: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:27:22,824: INFO: common]: created directory at: artifacts
+[2024-06-05 21:27:22,824: INFO: common]: created directory at: artifacts\training
+[2024-06-05 21:33:41,829: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-06-05 21:33:41,829: INFO: main]: *******************
+[2024-06-05 21:33:41,829: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-05 21:33:41,834: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:33:41,836: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:33:41,836: INFO: common]: created directory at: artifacts
+[2024-06-05 21:34:11,747: INFO: common]: json files saved at: scores.json
+[2024-06-05 21:34:11,748: INFO: common]: json files saved at: scores.json
+[2024-06-05 21:34:13,766: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-05 21:34:13,768: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-05 21:34:18,949: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 17). These functions will not be directly callable after loading.
+[2024-06-05 21:34:22,423: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpcmycwyqu\model\data\model\assets
+[2024-06-05 21:42:20,622: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-05 21:56:14,070: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-05 21:56:17,794: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-06-05 21:56:17,797: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:56:17,799: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:56:17,799: INFO: common]: created directory at: artifacts
+[2024-06-05 21:56:17,800: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-05 21:56:17,801: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-05 21:58:34,039: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1SrvZQiGilu4ZbeDO94VL4r2vFpcBRUtY/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-05 21:58:35,153: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-06-05 21:58:35,153: INFO: main]: *******************
+[2024-06-05 21:58:35,154: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-06-05 21:58:35,157: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 21:58:35,159: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 21:58:35,160: INFO: common]: created directory at: artifacts
+[2024-06-05 21:58:35,161: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-05 22:00:57,290: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-05 22:00:59,218: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-06-05 22:00:59,219: INFO: main]: ************************************************
+[2024-06-05 22:00:59,219: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-06-05 22:00:59,222: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 22:00:59,224: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 22:00:59,224: INFO: common]: created directory at: artifacts
+[2024-06-05 22:00:59,225: INFO: common]: created directory at: artifacts\training
+[2024-06-05 22:03:58,434: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-06-05 22:03:58,435: INFO: main]: *******************
+[2024-06-05 22:03:58,435: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-05 22:03:58,438: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-05 22:03:58,440: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-05 22:03:58,441: INFO: common]: created directory at: artifacts
+[2024-06-05 22:04:16,266: ERROR: main]: list index out of range
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 45, in <module>
+    model_evaluation.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 17, in main
+    evaluation.evaluation()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 47, in evaluation
+    self.save_score()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 50, in save_score
+    scores = {"loss": self.score[0], "accuracy": self.score[1], "mse": self.score[2], "rmse": self.score[3], "mae": self.score[4]} # added mse,rmse,mae
+                                                                       ~~~~~~~~~~^^^
+IndexError: list index out of range
+[2024-06-06 00:41:24,893: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 00:41:29,789: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-06-06 00:41:29,792: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:41:29,793: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:41:29,794: INFO: common]: created directory at: artifacts
+[2024-06-06 00:41:29,794: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-06 00:41:29,795: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 00:45:33,736: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 00:45:45,948: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-06-06 00:45:45,948: INFO: main]: *******************
+[2024-06-06 00:45:45,949: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-06-06 00:45:45,951: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:45:45,952: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:45:45,953: INFO: common]: created directory at: artifacts
+[2024-06-06 00:45:45,954: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 00:45:48,604: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 00:45:50,135: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-06-06 00:45:50,135: INFO: main]: ************************************************
+[2024-06-06 00:45:50,136: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 00:45:50,141: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:45:50,144: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:45:50,145: INFO: common]: created directory at: artifacts
+[2024-06-06 00:45:50,146: INFO: common]: created directory at: artifacts\training
+[2024-06-06 00:45:59,171: ERROR: main]: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 34, in <module>
+      model_trainer.main()
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+      training.train()
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_training.py", line 72, in train
+      self.model.fit(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[18,2] labels_size=[18,6]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_11536]
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 34, in <module>
+    model_trainer.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+    training.train()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_training.py", line 72, in train
+    self.model.fit(
+  File "C:\Users\User\anaconda3\Lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\User\anaconda3\Lib\site-packages\tensorflow\python\eager\execute.py", line 58, in quick_execute
+    except TypeError as e:
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'categorical_crossentropy/softmax_cross_entropy_with_logits' defined at (most recent call last):
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\main.py", line 34, in <module>
+      model_trainer.main()
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+      training.train()
+    File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_training.py", line 72, in train
+      self.model.fit(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+      return fn(*args, **kwargs)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1685, in fit
+      tmp_logs = self.train_function(iterator)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1284, in train_function
+      return step_function(self, iterator)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1268, in step_function
+      outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1249, in run_step
+      outputs = model.train_step(data)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1051, in train_step
+      loss = self.compute_loss(x, y, y_pred, sample_weight)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\training.py", line 1109, in compute_loss
+      return self.compiled_loss(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\engine\compile_utils.py", line 265, in __call__
+      loss_value = loss_obj(y_t, y_p, sample_weight=sw)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 142, in __call__
+      losses = call_fn(y_true, y_pred)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 268, in call
+      return ag_fn(y_true, y_pred, **self._fn_kwargs)
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\losses.py", line 1984, in categorical_crossentropy
+      return backend.categorical_crossentropy(
+    File "C:\Users\User\anaconda3\Lib\site-packages\keras\backend.py", line 5565, in categorical_crossentropy
+      return tf.nn.softmax_cross_entropy_with_logits(
+Node: 'categorical_crossentropy/softmax_cross_entropy_with_logits'
+logits and labels must be broadcastable: logits_size=[18,2] labels_size=[18,6]
+	 [[{{node categorical_crossentropy/softmax_cross_entropy_with_logits}}]] [Op:__inference_train_function_11536]
+[2024-06-06 00:48:12,529: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 00:48:15,547: INFO: main]: >>>>>> stage Data Ingestion stage started <<<<<<
+[2024-06-06 00:48:15,550: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:48:15,552: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:48:15,552: INFO: common]: created directory at: artifacts
+[2024-06-06 00:48:15,553: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-06 00:48:15,554: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 00:54:20,716: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 00:54:27,500: INFO: main]: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x
+[2024-06-06 00:54:27,500: INFO: main]: *******************
+[2024-06-06 00:54:27,501: INFO: main]: >>>>>> stage Prepare base model started <<<<<<
+[2024-06-06 00:54:27,503: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:54:27,505: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:54:27,505: INFO: common]: created directory at: artifacts
+[2024-06-06 00:54:27,506: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 00:54:30,135: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 00:54:32,359: INFO: main]: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x
+[2024-06-06 00:54:32,359: INFO: main]: ************************************************
+[2024-06-06 00:54:32,360: INFO: main]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 00:54:32,362: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 00:54:32,364: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 00:54:32,365: INFO: common]: created directory at: artifacts
+[2024-06-06 00:54:32,366: INFO: common]: created directory at: artifacts\training
+[2024-06-06 01:12:28,799: INFO: main]: >>>>>> stage Training completed  <<<<<<<
+
+x============x
+[2024-06-06 01:12:28,800: INFO: main]: *******************
+[2024-06-06 01:12:28,800: INFO: main]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-06 01:12:28,802: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 01:12:28,804: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 01:12:28,806: INFO: common]: created directory at: artifacts
+[2024-06-06 01:13:46,081: INFO: common]: json files saved at: scores.json
+[2024-06-06 01:13:46,082: INFO: common]: json files saved at: scores.json
+[2024-06-06 01:13:48,227: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-06 01:13:48,228: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-06 01:14:15,101: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 54). These functions will not be directly callable after loading.
+[2024-06-06 01:14:33,456: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp6tbwg1ea\model\data\model\assets
+[2024-06-06 01:20:57,801: INFO: main]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-06 01:21:20,469: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 01:21:21,338: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-06 01:21:21,338: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-06 01:21:29,355: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:21:29] "GET / HTTP/1.1" 200 -
+[2024-06-06 01:22:09,385: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:22:09] "POST /predict HTTP/1.1" 200 -
+[2024-06-06 01:25:13,224: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:25:13] "GET / HTTP/1.1" 200 -
+[2024-06-06 01:25:25,173: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:25:25] "POST /predict HTTP/1.1" 200 -
+[2024-06-06 01:25:53,603: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 01:25:54,225: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-06 01:25:54,225: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-06 01:26:13,333: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:26:13] "GET / HTTP/1.1" 200 -
+[2024-06-06 01:26:21,689: INFO: _internal]: 127.0.0.1 - - [06/Jun/2024 01:26:21] "POST /predict HTTP/1.1" 200 -
+[2024-06-06 02:05:22,430: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:05:22,504: INFO: common]: yaml file: D:\ML projects\ML class\Kidney-Disease-Classification\params.yaml loaded successfully
+[2024-06-06 02:05:22,506: INFO: common]: created directory at: artifacts
+[2024-06-06 02:06:41,852: INFO: common]: json files saved at: scores.json
+[2024-06-06 02:06:42,885: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-06 02:06:42,889: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-06 02:07:00,030: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 54). These functions will not be directly callable after loading.
+[2024-06-06 02:07:08,635: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpv1tuog4l\model\data\model\assets
+[2024-06-06 02:37:22,890: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-06-06 02:37:22,893: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:37:22,894: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 02:37:22,895: INFO: common]: created directory at: artifacts
+[2024-06-06 02:37:22,896: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-06 02:37:22,896: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 02:41:19,383: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 02:41:28,116: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x============x
+[2024-06-06 02:43:25,912: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 02:43:28,331: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-06 02:43:28,731: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:43:28,733: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 02:43:28,734: INFO: common]: created directory at: artifacts
+[2024-06-06 02:43:28,747: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 02:43:31,537: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 02:43:33,429: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-06 02:43:47,331: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 02:43:48,108: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 02:43:48,111: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:43:48,113: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 02:43:48,113: INFO: common]: created directory at: artifacts
+[2024-06-06 02:43:48,114: INFO: common]: created directory at: artifacts\training
+[2024-06-06 02:55:36,608: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 02:55:37,319: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 02:55:37,322: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:55:37,323: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 02:55:37,324: INFO: common]: created directory at: artifacts
+[2024-06-06 02:55:37,324: INFO: common]: created directory at: artifacts\training
+[2024-06-06 02:59:31,633: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 02:59:32,434: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 02:59:32,436: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 02:59:32,438: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 02:59:32,438: INFO: common]: created directory at: artifacts
+[2024-06-06 02:59:32,439: INFO: common]: created directory at: artifacts\training
+[2024-06-06 03:02:39,438: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 03:02:40,970: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 03:02:40,988: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 03:02:40,990: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 03:02:40,990: INFO: common]: created directory at: artifacts
+[2024-06-06 03:02:40,991: INFO: common]: created directory at: artifacts\training
+[2024-06-06 03:04:15,902: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage started <<<<<<<
+[2024-06-06 03:04:15,904: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 03:04:15,906: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 03:04:15,906: INFO: common]: created directory at: artifacts
+[2024-06-06 03:04:15,907: INFO: common]: created directory at: artifacts/data_ingestion
+[2024-06-06 03:04:15,908: INFO: data_ingestion]: Downloading data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 03:08:28,927: INFO: data_ingestion]: Download data from https://drive.google.com/file/d/1aNXZ7iqbwAEnAGLx8jVJPrY3nUVGjT-k/view?usp=sharing into file artifacts/data_ingestion/data.zip
+[2024-06-06 03:08:36,789: INFO: stage_01_data_ingestion]: >>>>>> stage Data Ingestion stage completed <<<<<<<
+
+x============x
+[2024-06-06 03:09:45,143: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 03:09:47,161: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-06 03:09:47,485: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 03:09:47,487: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 03:09:47,488: INFO: common]: created directory at: artifacts
+[2024-06-06 03:09:47,489: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 03:09:50,723: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 03:09:52,505: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-06 03:10:08,393: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 03:10:09,282: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 03:10:09,287: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 03:10:09,291: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 03:10:09,291: INFO: common]: created directory at: artifacts
+[2024-06-06 03:10:09,292: INFO: common]: created directory at: artifacts\training
+[2024-06-06 06:36:59,966: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-06 06:37:14,375: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 06:37:19,727: INFO: stage_04_model_evaluation]: *******************
+[2024-06-06 06:37:19,728: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-06 06:37:19,730: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 06:37:19,732: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 06:37:19,733: INFO: common]: created directory at: artifacts
+[2024-06-06 06:38:35,613: INFO: common]: json files saved at: scores.json
+[2024-06-06 06:38:35,614: INFO: common]: json files saved at: scores.json
+[2024-06-06 06:38:37,621: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-06 06:38:37,622: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-06 06:39:03,945: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 54). These functions will not be directly callable after loading.
+[2024-06-06 06:39:20,989: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp10tvzd7v\model\data\model\assets
+[2024-06-06 06:45:01,944: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-06 12:48:33,740: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 12:48:36,086: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-06 12:48:36,095: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 12:48:36,097: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 12:48:36,098: INFO: common]: created directory at: artifacts
+[2024-06-06 12:48:36,098: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 12:48:36,900: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 12:48:37,211: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-06 12:48:49,406: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 12:48:50,146: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 12:48:50,148: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 12:48:50,150: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 12:48:50,151: INFO: common]: created directory at: artifacts
+[2024-06-06 12:48:50,152: INFO: common]: created directory at: artifacts\training
+[2024-06-06 14:16:59,783: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-06 14:17:16,445: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 14:17:22,195: INFO: stage_04_model_evaluation]: *******************
+[2024-06-06 14:17:22,196: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-06 14:17:22,205: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 14:17:22,207: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 14:17:22,207: INFO: common]: created directory at: artifacts
+[2024-06-06 14:20:08,270: INFO: common]: json files saved at: scores.json
+[2024-06-06 14:20:08,272: INFO: common]: json files saved at: scores.json
+[2024-06-06 14:20:10,052: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-06 14:20:10,054: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-06 14:20:14,749: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-06 14:20:16,500: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpz8koytug\model\data\model\assets
+[2024-06-06 14:22:27,971: WARNING: connectionpool]: Retrying (Retry(total=4, connect=5, read=5, redirect=5, status=5)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2427)')': /mcmlxiv/Kidney-Disease-Classification.mlflow/api/2.0/mlflow-artifacts/artifacts/f5b905e747374fde889a4a3dc7b8ed42/a01ae58d54764f9da2392697328c8e3e/artifacts/model/data/model/variables/variables.data-00000-of-00001
+[2024-06-06 14:25:19,316: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-06 18:02:16,653: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 18:02:18,794: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 18:02:18,822: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 18:02:18,824: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 18:02:18,825: INFO: common]: created directory at: artifacts
+[2024-06-06 18:02:18,826: INFO: common]: created directory at: artifacts\training
+[2024-06-06 20:53:51,816: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-06 20:54:08,219: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 20:54:13,796: INFO: stage_04_model_evaluation]: *******************
+[2024-06-06 20:54:13,796: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-06 20:54:13,799: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 20:54:13,800: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 20:54:13,801: INFO: common]: created directory at: artifacts
+[2024-06-06 20:56:44,402: INFO: common]: json files saved at: scores.json
+[2024-06-06 20:56:44,403: INFO: common]: json files saved at: scores.json
+[2024-06-06 20:56:46,046: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-06 20:56:46,048: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-06 20:56:50,286: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-06 20:56:51,867: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp7qaz_hw7\model\data\model\assets
+[2024-06-06 21:00:04,325: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-06 21:48:48,879: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 21:48:50,407: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-06 21:48:50,434: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 21:48:50,436: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 21:48:50,436: INFO: common]: created directory at: artifacts
+[2024-06-06 21:48:50,447: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-06 21:48:51,531: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-06 21:49:32,447: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-06 21:49:33,449: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-06 21:49:33,451: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-06 21:49:33,453: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-06 21:49:33,455: INFO: common]: created directory at: artifacts
+[2024-06-06 21:49:33,455: INFO: common]: created directory at: artifacts\training
+[2024-06-07 00:21:38,287: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-07 00:21:52,475: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 00:21:56,628: INFO: stage_04_model_evaluation]: *******************
+[2024-06-07 00:21:56,629: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-07 00:21:56,631: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 00:21:56,633: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 00:21:56,634: INFO: common]: created directory at: artifacts
+[2024-06-07 00:23:03,985: INFO: common]: json files saved at: scores.json
+[2024-06-07 00:23:03,986: INFO: common]: json files saved at: scores.json
+[2024-06-07 00:23:05,619: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-07 00:23:05,621: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-07 00:23:26,302: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 54). These functions will not be directly callable after loading.
+[2024-06-07 00:23:39,812: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpm2da9lt3\model\data\model\assets
+[2024-06-07 00:29:10,871: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-07 13:55:01,026: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 13:55:05,124: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-07 13:55:05,124: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-07 13:55:13,742: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 13:55:13] "GET / HTTP/1.1" 200 -
+[2024-06-07 13:56:03,486: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 13:56:03] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 13:56:51,983: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 13:56:51] "GET / HTTP/1.1" 200 -
+[2024-06-07 13:57:05,685: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 13:57:05] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 13:57:43,474: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 13:57:43] "GET / HTTP/1.1" 200 -
+[2024-06-07 14:03:12,461: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 14:03:13,663: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model started <<<<<<<
+[2024-06-07 14:03:13,689: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 14:03:13,691: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 14:03:13,691: INFO: common]: created directory at: artifacts
+[2024-06-07 14:03:13,692: INFO: common]: created directory at: artifacts/prepare_base_model
+[2024-06-07 14:03:35,645: WARNING: saving_utils]: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[2024-06-07 14:03:42,007: INFO: stage_02_prepare_base_model]: >>>>>> stage Prepare Base Model completed <<<<<<<
+
+x============x
+[2024-06-07 14:03:55,082: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 14:03:56,076: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-07 14:03:56,079: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 14:03:56,081: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 14:03:56,081: INFO: common]: created directory at: artifacts
+[2024-06-07 14:03:56,082: INFO: common]: created directory at: artifacts\training
+[2024-06-07 17:01:01,689: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-07 17:01:17,178: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 17:01:21,782: INFO: stage_04_model_evaluation]: *******************
+[2024-06-07 17:01:21,782: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-07 17:01:21,785: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 17:01:21,787: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 17:01:21,787: INFO: common]: created directory at: artifacts
+[2024-06-07 17:02:37,382: INFO: common]: json files saved at: scores.json
+[2024-06-07 17:02:37,383: INFO: common]: json files saved at: scores.json
+[2024-06-07 17:02:47,967: ERROR: stage_04_model_evaluation]: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\backends\sync.py", line 62, in start_tls
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\backends\sync.py", line 57, in start_tls
+    sock = ssl_context.wrap_socket(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\ssl.py", line 1108, in _create
+    self.do_handshake()
+  File "C:\Users\User\anaconda3\Lib\ssl.py", line 1383, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_sync\connection_pool.py", line 253, in handle_request
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_sync\connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_sync\connection.py", line 86, in handle_request
+    raise exc
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_sync\connection.py", line 63, in handle_request
+    stream = self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_sync\connection.py", line 150, in _connect
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\backends\sync.py", line 54, in start_tls
+    with map_exceptions(exc_map):
+  File "C:\Users\User\anaconda3\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 27, in <module>
+    obj.main()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.log_into_mlflow()
+  File "D:\ML projects\ML class\Kidney-Disease-Classification\src\cnnClassifier\components\model_evaluation_mlflow.py", line 54, in log_into_mlflow
+    dagshub.init(repo_owner='mcmlxiv', repo_name='Kidney-Disease-Classification', mlflow=True)
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\common\init.py", line 83, in init
+    repo_api = RepoAPI(f"{repo_owner}/{repo_name}", host=host)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\common\api\repo.py", line 68, in __init__
+    self.auth = dagshub.auth.get_authenticator(host=host)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\auth\tokens.py", line 328, in get_authenticator
+    return _get_token_storage(**kwargs).get_authenticator(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\auth\tokens.py", line 114, in get_authenticator
+    token = self.get_token_object(host, fail_if_no_token, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\auth\tokens.py", line 149, in get_token_object
+    elif self.is_valid_token(token, host):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\auth\tokens.py", line 219, in is_valid_token
+    resp = http_request("GET", check_url, auth=auth)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\dagshub\common\helpers.py", line 60, in http_request
+    return httpx.request(method, url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_api.py", line 100, in request
+    return client.request(
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_client.py", line 821, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_client.py", line 908, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_client.py", line 936, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_client.py", line 973, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_client.py", line 1009, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 217, in handle_request
+    with map_httpcore_exceptions():
+  File "C:\Users\User\anaconda3\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\User\anaconda3\Lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+[2024-06-07 19:05:54,899: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 19:05:55,908: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-07 19:05:55,910: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 19:05:55,912: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 19:05:55,912: INFO: common]: created directory at: artifacts
+[2024-06-07 19:05:55,913: INFO: common]: created directory at: artifacts\training
+[2024-06-07 19:07:32,613: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 19:07:33,368: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-07 19:07:33,371: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 19:07:33,372: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 19:07:33,373: INFO: common]: created directory at: artifacts
+[2024-06-07 19:07:33,374: INFO: common]: created directory at: artifacts\training
+[2024-06-07 21:14:21,596: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-07 21:14:32,827: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 21:14:36,474: INFO: stage_04_model_evaluation]: *******************
+[2024-06-07 21:14:36,474: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-07 21:14:36,477: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-07 21:14:36,479: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-07 21:14:36,479: INFO: common]: created directory at: artifacts
+[2024-06-07 21:17:07,341: INFO: common]: json files saved at: scores.json
+[2024-06-07 21:17:07,342: INFO: common]: json files saved at: scores.json
+[2024-06-07 21:17:09,080: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-07 21:17:09,084: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-07 21:17:13,429: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-07 21:17:15,074: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmpfybadvbo\model\data\model\assets
+[2024-06-07 21:20:27,160: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x
+[2024-06-07 22:19:55,119: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 22:19:55,857: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-07 22:19:55,858: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-07 22:20:03,428: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:20:03] "GET / HTTP/1.1" 200 -
+[2024-06-07 22:20:07,524: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:20:07] "GET / HTTP/1.1" 200 -
+[2024-06-07 22:20:14,659: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:20:14] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:29:35,339: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:29:35] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:29:47,241: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:29:47] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:30:20,168: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:30:20] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:30:42,337: WARNING: polymorphic_function]: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000015DD7618FE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-06-07 22:30:42,351: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:30:42] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:30:52,962: WARNING: polymorphic_function]: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000015DD79C0E00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-06-07 22:30:52,976: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:30:52] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:01,986: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:01] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:13,088: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:13] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:19,523: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:19] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:26,382: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:26] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:37,166: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:37] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:45,269: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:31:45] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:31:59,784: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-07 22:32:00,483: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.103:8080
+[2024-06-07 22:32:00,484: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2024-06-07 22:32:00,504: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:00] "GET / HTTP/1.1" 200 -
+[2024-06-07 22:32:09,832: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:09] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:32:17,250: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:17] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:32:26,095: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:26] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:32:34,317: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:34] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:32:42,053: WARNING: polymorphic_function]: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000017FAC0C6480> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-06-07 22:32:42,068: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:42] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:32:50,152: WARNING: polymorphic_function]: 6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000017FAC594F40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+[2024-06-07 22:32:50,170: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:32:50] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:33:01,672: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:33:01] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:33:09,729: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:33:09] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:33:18,539: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:33:18] "POST /predict HTTP/1.1" 200 -
+[2024-06-07 22:33:27,172: INFO: _internal]: 127.0.0.1 - - [07/Jun/2024 22:33:27] "POST /predict HTTP/1.1" 200 -
+[2024-06-08 17:55:38,726: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-08 17:55:41,722: INFO: stage_03_model_training]: >>>>>> stage Training started <<<<<<<
+[2024-06-08 17:55:41,750: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-08 17:55:41,751: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-08 17:55:41,752: INFO: common]: created directory at: artifacts
+[2024-06-08 17:55:41,753: INFO: common]: created directory at: artifacts\training
+[2024-06-08 20:56:32,566: INFO: stage_03_model_training]: >>>>>> stage Training completed <<<<<<<
+
+x============x
+[2024-06-08 20:56:56,576: INFO: utils]: NumExpr defaulting to 8 threads.
+[2024-06-08 20:57:03,324: INFO: stage_04_model_evaluation]: *******************
+[2024-06-08 20:57:03,324: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation started <<<<<<
+[2024-06-08 20:57:03,327: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2024-06-08 20:57:03,330: INFO: common]: yaml file: params.yaml loaded successfully
+[2024-06-08 20:57:03,331: INFO: common]: created directory at: artifacts
+[2024-06-08 20:59:52,210: INFO: common]: json files saved at: scores.json
+[2024-06-08 20:59:52,211: INFO: common]: json files saved at: scores.json
+[2024-06-08 20:59:53,921: INFO: helpers]: Initialized MLflow to track repo "mcmlxiv/Kidney-Disease-Classification"
+[2024-06-08 20:59:53,922: INFO: helpers]: Repository mcmlxiv/Kidney-Disease-Classification initialized!
+[2024-06-08 20:59:59,608: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.
+[2024-06-08 21:00:01,404: INFO: builder_impl]: Assets written to: C:\Users\User\AppData\Local\Temp\tmp3zw8hjwq\model\data\model\assets
+[2024-06-08 21:03:21,433: INFO: stage_04_model_evaluation]: >>>>>> stage Evaluation completed <<<<<<
+
+x==========x

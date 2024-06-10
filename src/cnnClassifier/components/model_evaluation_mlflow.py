@@ -68,5 +68,10 @@ class Evaluation:
                 # please refer to the doc for more information:
                 # https://mlflow.org/docs/latest/model-registry.html#api-workflow
                 mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+                # reg model change
+                # RESNet50Model
+                # DenseNet121Model
+                # VGG19Model
+                # VGG16Model
             else:
                 mlflow.keras.log_model(self.model, "model")

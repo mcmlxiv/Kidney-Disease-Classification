@@ -54,6 +54,7 @@ class ConfigurationManager:
 
         training_config = TrainingConfig(
             root_dir=Path(training.root_dir),
+            cloud_model_path=Path(training.cloud_model_path),
             trained_model_path=Path(training.trained_model_path),
             updated_base_model_path=Path(prepare_base_model.updated_base_model_path),
             training_data=Path(training_data),
